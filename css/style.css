@@ -1,0 +1,296 @@
+/*Global setting*/
+
+html {
+    width: 1440px;
+    height: auto;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box !important;
+}
+
+.container {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.clear {
+    clear: both;
+}
+
+/*navbar*/
+
+.navbar-expand-lg {
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.nav-link {
+    padding-left: 0 !important;
+    padding-right: 30px !important;
+}
+
+.navbar img {
+    margin: 0 555px 0 60px;
+    width: 443px;
+    height: 80px;
+}
+
+.navbar-nav a {
+    color: #6c6c6c;
+    font-size: 14px;
+}
+
+.navbar-nav .active a {
+    color: #d7ac41;
+}
+
+.navbar-nav li a:hover {
+    color: #d7ac41;
+}
+
+/*first*/
+
+#first {
+    background-image: url(../img/top-banner.jpg);
+    width: 1440px;
+    height: 782px;
+}
+
+.container .text-center h1 {
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 335px 315px 0;
+    color: white;
+}
+
+.container .text-center p {
+    font-size: 24px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/*second*/
+
+#second {
+    background-image: url(../img/about-bg.jpg);
+    width: 1440px;
+    height: 754px;
+}
+
+.about-icon img {
+    margin: 100px 660px 0;
+    height: 120px;
+    width: 120px;
+}
+
+#second .content p {
+    margin: 40px 335px 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.62;
+    text-align: left;
+}
+
+.highlight-word {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#second .line {
+    border: solid 1px;
+    width: 62px;
+    color: #d7ac41;
+    margin-top: 40px;
+}
+
+/*third*/
+
+#third {
+    background-image: url(../img/service-bg.jpg);
+    width: 1440px;
+    height: 667px;
+}
+
+.title {
+    padding-top: 100px;
+}
+
+.line1 {
+    border: solid 1px;
+    width: 62px;
+    color: #d7ac41;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#third .title p {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin: 25px 620px 40px;
+    text-align: center;
+}
+
+.row-container {
+    width: 1200px;
+    margin-left: 10%;
+}
+
+.block {
+    max-width: 270px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 30px 30px 0;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+/*forth*/
+
+#forth {
+    width: 1440px;
+}
+
+#forth .title p {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin: 25px 620px 40px;
+    text-align: center;
+}
+
+.profile {
+    margin: 0 135px 60px;
+}
+
+.img-profile {
+    width: 270px;
+    height: 400px;
+    padding: 0;
+}
+
+.content-profile {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;
+    height: 400px;
+    background-color: #F6F7F8;
+}
+
+.content-profile .name {
+    margin-top: 60px;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.content-profile .title {
+    padding: 0;
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.content-profile .speak {
+    padding: 0;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.content-profile .content {
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.content-profile .email {
+    font-size: 16px;
+}
+
+.row-button {
+    width: 1440px;
+    margin: 0;
+}
+
+.button {
+    border: solid 1px;
+    background-color: white;
+    color: #d7ac41;
+    width: 270px;
+    height: 60px;
+    text-decoration: none !important;
+    margin: 0 585px 100px;
+}
+
+.button:hover {
+    color: #d7ac41;
+}
+
+.button p {
+    font-size: 16px;
+    line-height: 60px;
+    color: #d7ac41;
+    text-align: center;
+}
+
+/*fifth*/
+
+#fifth {
+    background-image: url(../img/footer-bg.jpg);
+    width: 1440px;
+    height: 437px;
+    padding-left: 135px;
+}
+
+#fifth .title {
+    padding-top: 100px;
+}
+
+.line2 {
+    border: solid 1px;
+    width: 62px;
+    color: #d7ac41;
+    margin-top: 0;
+    margin-bottom: 25px;
+    margin-left: 0;
+}
+
+#fifth .email {
+    margin: 0 !important;
+}
+
+#fifth .phone {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#fifth .title p {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+}
+
+#fifth .content p {
+    font-size: 16px;
+}
+
+/*footer*/
+
+.foot {
+    background-color: #2b2c2c;
+    width: 1440px;
+    height: 48px;
+}
+
+.foot p {
+    font-size: 16px !important;
+    line-height: 48px;
+    margin: 0;
+}
