@@ -17,10 +17,6 @@ html {
     margin: 0 !important;
 }
 
-.clear {
-    clear: both;
-}
-
 /*navbar*/
 
 .navbar-expand-lg {
@@ -59,6 +55,7 @@ html {
     background-image: url(../img/top-banner.jpg);
     width: 1440px;
     height: 782px;
+    position: relative;
 }
 
 .container .text-center h1 {
@@ -149,6 +146,8 @@ html {
     line-height: 60px;
     margin: 0 30px 30px 0;
     background: rgba(255, 255, 255, 0.7);
+    color: #6c6c6c;
+    font-size: 16px;
 }
 
 /*forth*/
@@ -251,6 +250,7 @@ html {
 
 #fifth .title {
     padding-top: 100px;
+    padding-bottom: 40px;
 }
 
 .line2 {
