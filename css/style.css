@@ -31,7 +31,7 @@ html {
 }
 
 .navbar img {
-    margin: 0 555px 0 60px;
+    margin: 20px 555px 0 60px;
     width: 443px;
     height: 80px;
 }
@@ -114,7 +114,6 @@ html {
     background-image: url(../img/service-bg.jpg);
     width: 1440px;
     height: 667px;
-    width: 100%;
 }
 
 .title {
@@ -134,6 +133,8 @@ html {
     font-weight: 600;
     color: #4a494b;
     margin: 25px 620px 40px;
+    padding: 0;
+    text-align: center;
 }
 
 .row-container {
@@ -162,7 +163,8 @@ html {
     font-weight: 600;
     color: #4a494b;
     margin: 25px 620px 40px;
-    width: 100%;
+    text-align: center;
+    padding: 0;
 }
 
 .profile {
