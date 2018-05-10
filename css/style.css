@@ -58,19 +58,18 @@ html {
     position: relative;
 }
 
-.container .text-center h1 {
-    font-size: 80px;
+#first h1 {
     font-weight: 600;
     letter-spacing: 10px;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    padding: 335px 315px 0;
+    padding: 335px 0 0 0;
     color: white;
+    font-size: 80px;
 }
 
-.container .text-center p {
+#first p {
     font-size: 24px;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    width: auto;
     color: white;
 }
 
@@ -94,6 +93,7 @@ html {
     font-weight: 300;
     line-height: 1.62;
     text-align: left;
+    color: white;
 }
 
 .highlight-word {
@@ -133,8 +133,8 @@ html {
     font-weight: 600;
     color: #4a494b;
     margin: 25px 620px 40px;
+    padding: 0;
     text-align: center;
-    width: auto;
 }
 
 .row-container {
@@ -164,7 +164,7 @@ html {
     color: #4a494b;
     margin: 25px 620px 40px;
     text-align: center;
-    width: auto;
+    padding: 0;
 }
 
 .profile {
@@ -296,4 +296,5 @@ html {
     font-size: 16px !important;
     line-height: 48px;
     margin: 0;
+    color: white;
 }
