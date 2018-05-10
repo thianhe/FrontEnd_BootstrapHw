@@ -114,6 +114,7 @@ html {
     background-image: url(../img/service-bg.jpg);
     width: 1440px;
     height: 667px;
+    width: 100%;
 }
 
 .title {
@@ -161,6 +162,7 @@ html {
     font-weight: 600;
     color: #4a494b;
     margin: 25px 620px 40px;
+    width: 100%;
 }
 
 .profile {
