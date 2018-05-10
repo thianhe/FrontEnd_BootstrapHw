@@ -21,6 +21,7 @@ html {
 
 .navbar-expand-lg {
     width: auto;
+    padding-top: 40px;
     padding-left: 0;
     padding-right: 0;
 }
@@ -31,7 +32,7 @@ html {
 }
 
 .navbar img {
-    margin: 20px 555px 0 60px;
+    margin: 0 555px 0 60px;
     width: 443px;
     height: 80px;
 }
