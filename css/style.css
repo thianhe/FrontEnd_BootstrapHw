@@ -295,9 +295,7 @@ html {
 
 @media only screen and (max-width: 768px) {
     #forth button {
-        margin: 0 auto;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        margin: 10%;
     }
 }
 
@@ -346,7 +344,7 @@ html {
     }
 }
 
-.line2 {
+#fifth .line2 {
     border: solid 1px;
     width: 62px;
     color: #d7ac41;
