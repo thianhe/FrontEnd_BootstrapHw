@@ -12,58 +12,63 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg ">
-        <img alt="Logo" src="./img/logo.png">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">關於育稔<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#third">服務項目</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#forth">專業團隊</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#fifth">聯絡我們</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light md-auto">
+        <div class="col-xs-12 col-sm-6 col-md-8 logo">
+            <img alt="Logo" src="./img/logo.png">
+        </div>
+        <div class="col-xs-6 col-md-4 burger-center">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">關於育稔<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#third">服務項目</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#forth">專業團隊</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#fifth">聯絡我們</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <div class="container">
-        <div id="first">
-            <div class="text-center">
+
+    <div class="container-fluid">
+        <div id="first" class="row">
+            <div class="text-center col-12">
                 <h1>果行育德 ，謙如穗稔</h1>
                 <p>國際法律事務所 ｜ 為您帶來最專業的</p>
             </div>
         </div>
-        <div id="second">
-            <div class="about-icon">
+        <div id="second" class="row">
+            <div class="about-icon mx-auto d-flex justify-content-center flex-wrap col-12">
                 <img src="./img/about-icon.png" alt="About Icon">
             </div>
             <div class="content text-center">
-                <div class="first-paragraph">
+                <div class="first-paragraph col-12">
                     <p>育稔源起：<span class="highlight-word">『果行育德，謙如穗稔』</span>，以果敢謙遜的態度看待自己…</p>
                 </div>
-                <div class="second-paragraph">
+                <div class="second-paragraph col-12">
                     <p>本所中文名稱「育稔」，旨在成為孕育卓越夥伴之溫床；灌溉客戶事業之泉源，期望工作夥伴及客戶，都能在本所的環境中成長茁壯，飽滿豐收，此即「稔」之意。為了達到「稔」的境界， 我們不設限「育」的方法， 這就必須提到本所商標，這是以兩位創所律師名字縮寫所構成的無限圖樣，而無限圖樣上有著豐收的稻穗，諭示著永遠應將「稔」的概念至於上位，「育」的方法不應受到教條、刻板印象限制。
                     </p>
                 </div>
-                <hr class="line">
-                <div class="third-paragraph">
+                <hr class="line col-12">
+                <div class="third-paragraph col-12">
                     <p>因此，我們是農人，以踏實勤勉之心處事，以謙和如穗之心待人，同時也是陽光、空氣、水，要以稻穗飽滿，就必須具備天時、地利、人和等一切條件，而本所的職責與期許，就是提供一切條件達於「稔」。</p>
                 </div>
-                <div class="forth-paragraph">
+                <div class="forth-paragraph col-12">
                     <p>若您問我們是誰？如何看待自己？我們會這樣回答：「我們是一個生態系，是大自然的一部分。」，故當您有案件或事業需要協助，我們有豐富經歷化作沃土，有完整專業團隊提供陽光、空氣、水等資源，協助您飽滿豐收。因此，若有緣份，我們誠摯歡迎您成為這個生態系的一部分，一同共存共榮。</p>
                 </div>
             </div>
         </div>
         <div id="third">
-            <div class="title text-nowrap">
+            <div class="title">
                 <hr class="line1">
                 <p>服務項目</p>
             </div>
@@ -89,8 +94,8 @@
                 </div>
             </div>
         </div>
-        <div id="forth">
-            <div class="title text-nowrap">
+        <!--<div id="forth">
+            <div class="title">
                 <hr class="line1">
                 <p>專業團隊</p>
             </div>
@@ -138,12 +143,13 @@
             <div class="row content ">
                 <div class="col-3 email">
                     <p class="first">電郵&emsp;Practice@ccaprtners.service</p>
-                    <p>&emsp;&emsp;&emsp;Practice2@ccaprtners.service</p>
+                    <p>&emsp;&emsp;&emsp;Practice@ccaprtners.service</p>
                 </div>
+
                 <div class="col-8 phone">
-                    <p>電話&emsp;02-1234123</p>
-                    <p>地址&emsp;台北市信義區天龍路50號</p>
-                    <p>時間&emsp;09:00 ~ 18:00</p>
+                    <p>電話&nbsp;&nbsp;&nbsp;&nbsp;02-1234123</p>
+                    <p>地址&nbsp;&nbsp;&nbsp;&nbsp;台北市信義區天龍路50號</p>
+                    <p>時間&nbsp;&nbsp;&nbsp;&nbsp;09:00 ~ 18:00</p>
                 </div>
 
             </div>
@@ -155,7 +161,7 @@
                 </div>
             </div>
 
-        </footer>
+        </footer>-->
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

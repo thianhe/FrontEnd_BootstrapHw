@@ -1,7 +1,6 @@
 /*Global setting*/
 
 html {
-    width: 1440px;
     height: auto;
     margin: 0 auto;
 }
@@ -11,12 +10,32 @@ html {
     box-sizing: border-box !important;
 }
 
-.container {
-    padding: 0 !important;
-    margin: 0 !important;
+@media only screen and (min-width: 1440px) {
+    html {
+        width: 1440px;
+        margin: 0 auto;
+    }
 }
 
+@media only screen and (min-width: 1200px) {}
+
 /*navbar*/
+
+@media only screen and (max-width: 512px) {
+    .logo img {
+        box-sizing: content-box;
+        width: 100%;
+        height: auto;
+        margin: 0 auto !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .burger-center button.navbar-toggler {
+        margin-top: 10px;
+        margin: 0 40%;
+    }
+}
 
 .navbar-expand-lg {
     width: auto;
@@ -26,36 +45,36 @@ html {
 }
 
 .nav-link {
-    padding-left: 0 !important;
-    padding-right: 30px !important;
+    padding-left: 0;
+    padding-right: 30px;
 }
 
 .navbar img {
-    margin: 0 555px 0 60px;
-    width: 443px;
+    box-sizing: content-box;
     height: 80px;
+    margin-left: 45px;
 }
 
-.navbar-nav a {
-    color: #6c6c6c;
+.nav-link {
+    color: #6c6c6c !important;
     font-size: 14px;
 }
 
-.navbar-nav .active a {
-    color: #d7ac41;
+.active a {
+    color: #d7ac41 !important;
 }
 
-.navbar-nav li a:hover {
-    color: #d7ac41;
+.nav-link:hover {
+    color: #d7ac41 !important;
 }
 
 /*first*/
 
 #first {
-    background-image: url(../img/top-banner.jpg);
-    width: 1440px;
+    background: url(../img/top-banner.jpg) fixed center;
+    background-size: cover;
+    display: flex;
     height: 782px;
-    position: relative;
 }
 
 #first h1 {
@@ -76,12 +95,13 @@ html {
 /*second*/
 
 #second {
-    background-image: url(../img/about-bg.jpg);
-    width: 1440px;
+    background: url(../img/about-bg.jpg) fixed center;
+    background-size: cover;
+    display: flex;
     height: 754px;
 }
 
-.about-icon img {
+#second .about-icon img {
     margin: 100px 660px 0;
     height: 120px;
     width: 120px;
@@ -96,7 +116,24 @@ html {
     color: white;
 }
 
-.highlight-word {
+#second .first-paragraph p {
+    margin: 0 335px 0;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.62;
+    text-align: left;
+    color: white;
+}
+
+@media only screen and (max-width: 1315px) {
+    #second .content p {
+        margin: 0 auto;
+        padding-left: auto;
+        padding-right: auto;
+    }
+}
+
+#second .highlight-word {
     font-size: 24px;
     font-weight: 600;
 }
