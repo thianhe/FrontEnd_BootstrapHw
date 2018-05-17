@@ -124,7 +124,7 @@ html {
 }
 
 #second .about-icon img {
-    margin: 100px 660px 0;
+    margin: 70px 660px 0;
     height: 120px;
     width: 120px;
 }
@@ -376,10 +376,12 @@ html {
     font-size: 16px;
     line-height: 48px;
     color: white;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 1315px) {
     .foot p {
         margin: 0 auto;
+        margin-bottom: 0;
     }
 }
