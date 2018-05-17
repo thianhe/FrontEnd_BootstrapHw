@@ -17,7 +17,14 @@ html {
     }
 }
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (max-width: 1200px) {
+    #first {
+        position: static;
+    }
+    #second img {
+        position: static;
+    }
+}
 
 /*navbar*/
 
@@ -77,6 +84,11 @@ html {
     height: 782px;
 }
 
+#first .content {
+    margin: 0 auto;
+    width: 100%;
+}
+
 #first h1 {
     font-weight: 600;
     letter-spacing: 10px;
@@ -84,6 +96,12 @@ html {
     padding: 335px 0 0 0;
     color: white;
     font-size: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+    #first h1 {
+        margin: 0 auto;
+    }
 }
 
 #first p {
@@ -99,12 +117,18 @@ html {
     background-size: cover;
     display: flex;
     height: 754px;
+    align-items: center;
 }
 
 #second .about-icon img {
     margin: 100px 660px 0;
     height: 120px;
     width: 120px;
+}
+
+#second .content {
+    margin: 0 auto;
+    width: 100%;
 }
 
 #second .content p {
@@ -127,9 +151,7 @@ html {
 
 @media only screen and (max-width: 1315px) {
     #second .content p {
-        margin: 0 auto;
-        padding-left: auto;
-        padding-right: auto;
+        margin: 40px 0 auto;
     }
 }
 
