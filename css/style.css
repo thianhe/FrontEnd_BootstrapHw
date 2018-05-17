@@ -17,12 +17,15 @@ html {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 1200px) {
     #first {
-        position: static;
+        height: 782px;
     }
-    #second img {
-        position: static;
+    #second {
+        height: 754px;
+    }
+    #third {
+        height: 667px;
     }
 }
 
@@ -81,7 +84,6 @@ html {
     background: url(../img/top-banner.jpg) fixed center;
     background-size: cover;
     display: flex;
-    height: 782px;
 }
 
 #first .content {
@@ -116,7 +118,6 @@ html {
     background: url(../img/about-bg.jpg) fixed center;
     background-size: cover;
     display: flex;
-    height: 754px;
     align-items: center;
 }
 
@@ -170,28 +171,29 @@ html {
 /*third*/
 
 #third {
-    background-image: url(../img/service-bg.jpg);
-    width: 1440px;
-    height: 667px;
+    background: url(../img/service-bg.jpg) fixed center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .title {
-    padding-top: 100px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 .line1 {
     border: solid 1px;
     width: 62px;
     color: #d7ac41;
-    margin-top: 0px;
-    margin-bottom: 25px;
+    margin-top: 100px;
 }
 
 #third .title p {
     font-size: 50px;
     font-weight: 600;
     color: #4a494b;
-    margin: 25px 620px 40px;
+    margin: 25px 0 40px 0;
 }
 
 .row-container {
@@ -211,15 +213,11 @@ html {
 
 /*forth*/
 
-#forth {
-    width: 1440px;
-}
-
 #forth .title p {
     font-size: 50px;
     font-weight: 600;
     color: #4a494b;
-    margin: 25px 620px 40px;
+    margin: 25px 0 40px 0;
 }
 
 .profile {
