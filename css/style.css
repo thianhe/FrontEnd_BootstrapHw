@@ -54,15 +54,16 @@ html {
     padding-right: 0;
 }
 
-.nav-link {
-    padding-left: 0;
-    padding-right: 30px;
-}
-
 .navbar img {
     box-sizing: content-box;
     height: 80px;
     margin-left: 45px;
+    margin-right: 555px;
+}
+
+.nav-link {
+    padding-left: 0 !important;
+    padding-right: 30px !important;
 }
 
 .nav-link {
