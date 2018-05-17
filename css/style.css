@@ -7,7 +7,7 @@ html {
 
 * {
     padding: 0;
-    box-sizing: border-box !important;
+    box-sizing: border-box;
 }
 
 @media only screen and (min-width: 1440px) {
@@ -27,6 +27,9 @@ html {
     #third {
         height: 667px;
     }
+    #fifth {
+        height: 437px;
+    }
 }
 
 /*navbar*/
@@ -42,16 +45,14 @@ html {
 
 @media only screen and (max-width: 768px) {
     .burger-center button.navbar-toggler {
-        margin-top: 10px;
-        margin: 0 40%;
+        margin: 5% 40%;
     }
 }
 
 .navbar-expand-lg {
     width: auto;
     padding-top: 40px;
-    padding-left: 0;
-    padding-right: 0;
+    text-align: center;
 }
 
 .navbar img {
@@ -194,7 +195,7 @@ html {
     font-size: 50px;
     font-weight: 600;
     color: #4a494b;
-    margin: 25px 0 40px 0;
+    margin: 25px 0 0 0;
 }
 
 #third .row-container {
@@ -292,9 +293,11 @@ html {
     margin: 0 585px 100px;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
     #forth button {
-        margin-top: 20px;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
 }
 
@@ -312,15 +315,35 @@ html {
 /*fifth*/
 
 #fifth {
-    background-image: url(../img/footer-bg.jpg);
-    width: 1440px;
-    height: 437px;
-    padding-left: 135px;
+    background: url(../img/footer-bg.jpg) fixed center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
-#fifth .title {
-    padding-top: 100px;
-    padding-bottom: 40px;
+#fifth .title2 {
+    margin-left: 135px;
+}
+
+#fifth h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #fifth .title2 {
+        margin: 0 auto;
+    }
+    #fifth .line2 {
+        border: solid 1px;
+        width: 62px;
+        color: #d7ac41;
+        margin-top: 23%;
+        margin-bottom: 5%;
+        margin-left: 0;
+    }
 }
 
 .line2 {
@@ -341,27 +364,23 @@ html {
     margin: 0 !important;
 }
 
-#fifth .title p {
-    font-size: 50px;
-    font-weight: 600;
-    color: #4a494b;
-}
-
-#fifth .content p {
+#fifth p {
     font-size: 16px;
 }
 
 /*footer*/
 
-.foot {
+.foot p {
     background-color: #2b2c2c;
-    width: 1440px;
+    width: 100%;
     height: 48px;
+    font-size: 16px;
+    line-height: 48px;
+    color: white;
 }
 
-.foot p {
-    font-size: 16px !important;
-    line-height: 48px;
-    margin: 0;
-    color: white;
+@media only screen and (max-width: 1315px) {
+    .foot p {
+        margin: 0 auto;
+    }
 }
